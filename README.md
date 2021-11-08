@@ -21,7 +21,7 @@ As the focus of this technical assessment is on the set up of a basic data pipel
 ### Basic Setup 
 - Save Dockerfile (without any extension) in the same directory that will be pointing the Docker compose setup
 - init.sql and init1.sql these will be used for database commands
-- run 'docker build .' command to use the build the image using Dockerfile in the current working directory
+- run 'docker build .' to build commands and Image mentioned in Dockerfile into the current working directory
 - run 'docker-compose up' to setup the required containers, image and data volumes
 - /dags/glints_project_data_import.py file has Airflow DAG Python setup script
 
