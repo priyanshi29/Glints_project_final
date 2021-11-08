@@ -19,12 +19,13 @@ As the focus of this technical assessment is on the set up of a basic data pipel
 | 1  | 13-12-21 | 2000 |
 
 ### Basic Setup 
-- Save Dockerfile.txt in the same directory that will be pointing the Docker compose setup
+- Save Dockerfile (without any extension) in the same directory that will be pointing the Docker compose setup
 - init.sql and init1.sql these will be used for database commands
+- run 'docker build .' command to use the build the image using Dockerfile in the current working directory
 - run 'docker-compose up' to setup the required containers, image and data volumes
-- /dags/glints_project_data_import.py file has Airflow DAG setup script
+- /dags/glints_project_data_import.py file has Airflow DAG Python setup script
 
-### PGAdmin setup
+### PGAdmin Dashboard setup
 - Can acccess url http://127.0.0.1:8080/?pgsql=database&username=airflow to verify the data in Source and Target server
 
 ### Database Setup
